@@ -1,0 +1,189 @@
+<!-- Booking Page 2 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Booking 2-Intake</title>
+    <link rel="stylesheet" href="/CSS/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Lobster|Tangerine" rel="stylesheet">
+</head>
+
+<body>
+    
+    <div class="x-dev" label="x-dev brand">
+      <h2>  Powered By<br>
+          <span id="x-spin" label="x-dev animation">-X-</span>
+          <br>
+          DEV
+      </h2>
+    </div>
+    
+    <header>
+        <div id="logo">
+            <a href="/index.html" alt="homepage">
+        <img src="/IMAGES/logo/x-logo.jpg" alt="Massage Meister&copy Logo">
+            </a>
+        </div>
+        
+        <nav>
+            <ul>About You
+                <li><a href="/HTML/yourbody.html">Your Body</a></li>
+            
+            </ul>
+    
+            <ul>Services
+                <li><a href="/HTML/booking.html">Book Session</a></li>
+                <li><a href="/HTML/pricing.html">Pricing</a></li> 
+                <li><a href="/HTML/otherservices.html">Other Services</a></li>
+            </ul>
+    
+            <ul><a href="/HTML/aboutus.html">About Us</a>
+                <li><a href="/HTML/benefits.html">Benefits of Massage</a></li>
+                <li id="theLineUp">The Line-Up
+                    <ul>
+                        <li id="therapistList"><a href="/HTML/ahkiem-resume.html">Ahkiem Crenshaw</a></li>
+                    </ul>
+                </li>
+                <!--Contacts Modal -->
+                <li id="contact-modal">Contact</li>
+                
+                <div id="theModal" class="modal">
+    
+                    <div class="content">
+                        <span id="closeModal">&times;</span>
+    
+                        <p>Email: ahkiemcm@gmail.com
+                            <br>
+                           Phone: (678)520-3653 
+                        </p>
+                    </div>
+    
+                </div>
+            </ul>
+    
+            <ul><a href="/HTML/FAQs.html">FAQs</a>
+            </ul>
+        </nav>
+    
+
+
+    </header>
+<section class="intake">
+    Style of Massage
+    <br>
+    
+    <form name="style-pref">
+        <input type="radio" name="style" value="swedish">Swedish
+        <input type="radio" name="style" value="deeptissue"> Deep Tissue
+        <input type="radio" name="style" value="sports"> Sport
+    </form>
+    <br>
+    <form>
+    Preferred Therapist Gender
+    <br>
+    <input type="radio" name="gender" value="male">Male
+    <input type="radio" name="gender" value="female"> Female
+    <input type="radio" name="gender" value="other"> Either
+    <br>
+    </form>
+    <br>
+    <form>
+    Intake Section
+    <br>
+    Are you taking any medications:
+    <br>
+   </form>
+   <form>
+    <input type="radio" name="medications?" value="Yes">Yes
+    <input class="biggerForm" type="text" name="medications?" value="If yes, list what medications you are taking">
+    <br>   
+    <input type="radio" name="medications?" value="No">No
+    </form>
+    <br>
+    <form>
+    Are you currently pregnant?
+    <br>
+    <input type="radio" name="pregnant?" value="Yes">Yes
+    <input class="biggerForm" type="text" name="pregnant?" value="If yes, how far along?">
+    <br>
+    <input type="radio" name="pregnant?" value="No">No
+    <br>
+    </form>
+    <br>
+    <form>
+    Do you suffer from chronic back pain?
+    <br>
+    <input type="radio" name="medications?" value="Yes">Yes
+    <input type="radio" name="medications?" value="No">No
+    <br>
+    </form>
+    <br>
+    <form>
+    Health Concerns    
+    <br>
+    <input type="checkbox" name="conditions?" value="cancer">Cancer
+    <input type="checkbox" name="conditions?" value="headaches">Headaches/Migraines
+    <br>
+    <input type="checkbox" name="conditions?" value="arthritis">Arthritis
+    <input type="checkbox" name="conditions?" value="diabetes">Diabetes
+    <br>
+    <input type="checkbox" name="conditions?" value="jointreplace">Joint Replacement(s)
+    <input type="checkbox" name="conditions?" value="bloodpressure">High/Low Blood Pressure
+    <br>
+    <input type="checkbox" name="conditions?" value="neuropathy">Neuropathy
+    <input type="checkbox" name="conditions?" value="fibromyalgia">Fibromyalgia
+    <br>
+    <input type="checkbox" name="conditions?" value="stroke">Stroke
+    <input type="checkbox" name="conditions?" value="heartattack">Heart Attack
+    <br>
+    <input type="checkbox" name="conditions?" value="kidneyprobs">Kidney Dysfunction
+    <input type="checkbox" name="conditions?" value="bloodclots">Blood Clots
+    <br>
+    <input type="checkbox" name="conditions?" value="numbess">Numbness	
+    <input type="checkbox" name="conditions?" value="sprains/strains">Sprains or Strains
+    <br>
+    </form>
+    <br>
+    <form>
+    Areas of Focus
+    <br>
+    <input type="checkbox" name="focusarea" value="neck">Neck
+    <input type="checkbox" name="focusarea" value="shoulders">Shoulders
+    <input type="checkbox" name="focusarea" value="lowback">Lower Back
+    <input type="checkbox" name="focusarea" value="midback">Mid Back
+    <input type="checkbox" name="focusarea" value="legs">Legs
+    <input type="checkbox" name="focusarea" value="arms">Arms
+    <br>
+    <br>
+    Areas to avoid
+    <br>
+    <input class="biggerForm" type="text" name="avoid-areas" value="Areas to avoid (ex. feet, glutes, etc..)">
+    <br>
+    Desired Pressure
+    <br>
+    <input type="radio" name="pressure" value="light">  Light
+    <input type="radio" name="pressure" value="medium"> Medium
+    <input type="radio" name="pressure" value="firm"> Firm
+    <input type="radio" name="pressure" value="deep"> Deep
+    <br>
+    </form>
+</section>
+
+        
+
+    <input type=button id="go-back" onClick="parent.location='/HTML/booking.html'" value='<-- Go Back'>
+    <input type=button id="submit-pay" onClick="parent.location='/HTML/sessionbooked!.html'" value='Book Your Session'>
+    
+
+
+
+    <footer>
+        Copyright &copy 2018
+    </footer>
+    
+    <script src="/app.js"></script>
+</body>
+</html>

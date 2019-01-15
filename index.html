@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Massage Meister</title>
+    <link rel="stylesheet" href="./CSS/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Lobster|Tangerine" rel="stylesheet">
+</head>
+
+<body>
+    
+        <div class="x-dev" label="x-dev brand">
+                <h2>  Powered By<br>
+                    <span id="x-spin" label="x-dev animation">-X-</span>
+                    <br>
+                    DEV
+                </h2>
+              </div>
+    
+    <header>
+        <div id="logo">
+            <a href="/index.html" alt="homepage">
+        <img src="/IMAGES/logo/x-logo.jpg" alt="Massage Meister&copy Logo">
+            </a>
+        </div>
+        
+        <nav>
+        <ul>About You
+            <li><a href="/HTML/yourbody.html">Your Body</a></li>
+        
+        </ul>
+
+        <ul>Services
+            <li><a href="/HTML/booking.html">Book Session</a></li>
+            <li><a href="/HTML/pricing.html">Pricing</a></li> 
+            <li><a href="/HTML/otherservices.html">Other Services</a></li>
+        </ul>
+
+        <ul><a href="/HTML/aboutus.html">About Us</a>
+            <li><a href="/HTML/benefits.html">Benefits of Massage</a></li>
+            <li id="theLineUp">The Line-Up
+                <ul>
+                    <li id="therapistList"><a href="/HTML/ahkiem-resume.html">Ahkiem Crenshaw</a></li>
+                </ul>
+            </li>
+            <!--Contacts Modal -->
+            <li id="contact-modal">Contact</li>
+            
+            <div id="theModal" class="modal">
+
+                <div class="content">
+                    <span id="closeModal">&times;</span>
+
+                    <p>Email: ahkiemcm@gmail.com
+                        <br>
+                       Phone: (678)520-3653 
+                    </p>
+                </div>
+
+            </div>
+        </ul>
+
+        <ul><a href="/HTML/FAQs.html">FAQs</a>
+        </ul>
+    </nav>
+
+    </header>
+
+
+    <div class='parallax'>
+        <div class='paralimb'>
+            <h1>Why leave your house to relax?</h1>
+            <h2>We'll just bring it to you. That's what we do.</h2>
+
+            <input id="bookmeister" type=button onClick="parent.location='/HTML/booking.html'" value='Book Your Meister'>
+        </div>
+    </div>
+
+    <div class="ourButton">
+        <form>
+        <input id="formInput" type='text' value="Enter your email address...">
+        </form>
+        
+    <button id="request" name="booking-button" type="button" onclick="subscribed()">Join Newsletter</button>
+    </div>
+
+    <h1 id="tableTitle">Availability</h1>
+    <table class="tableRules">
+    
+        <tr class="tableRow">
+            <td class="tableData"><h2>Days</h2></td>
+            <td class="tableData"><h2>Hours</h2></td>
+        </tr>
+        <tr>
+            <td class="tableData"><h3>Mon - Friday</h3></td>
+            <td class="tableData"><h3>10am - 8pm</h3></td>
+        </tr>
+        <tr>
+            <td class="tableData"><h3>Saturday</h3></td>
+            <td class="tableData"><h3>12pm - 6pm</h3></td>
+        </tr>
+        <tr>
+            <td class="tableData"><h3>Sunday</h3></td>
+            <td class="tableData"><h3>12pm - 3pm</h3></td>
+        </tr> 
+    </table>
+
+    <footer>
+        Copyright &copy 2018
+    </footer>
+   
+    <script src="app.js"></script>
+</body>
+</html>
